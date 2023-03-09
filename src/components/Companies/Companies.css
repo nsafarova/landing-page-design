@@ -38,10 +38,11 @@
 
     .company-container {
         width: 90%;
+        gap: 20px;
     }
 
     .company-container img {
-        height: 30px;
+        height: 28px;
         width: auto;
     }
 
