@@ -1,3 +1,13 @@
+# Project - Landing Page with Figma
+
+This landing page was designed using Figma (found through community) and built with React and CSS. It is responsive design and can be viewed on desktop and mobile devices.
+
+See live demo ➡️ [here]()
+
+## Design Files
+
+The Figma design file for this landing page can be found at [Figma Community](https://www.figma.com/community/file/1117815114206690225).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,49 @@
+.companies {
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.companies span {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #667085;
+}
+
+.company-container {
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 50%;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    gap: 30px;
+
+    background: #F6F6F6;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+
+    .companies span {
+        font-size: 14px;
+    }
+
+    .company-container {
+        width: 90%;
+    }
+
+    .company-container img {
+        height: 30px;
+        width: auto;
+    }
+
+
+}

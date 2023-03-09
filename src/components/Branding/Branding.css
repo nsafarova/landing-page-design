@@ -1,0 +1,71 @@
+.branding {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.branding-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+
+
+.branding-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 172% */
+
+    text-transform: capitalize;
+
+    color: #272D38;
+}
+
+/* Ellipse */
+.ellipse-2 {
+    position: absolute;
+    width: 232px;
+    height: 679px;
+    left: calc(50% - 679px/2 + 818.5px);
+    top: 1100px;
+
+    background: rgba(142, 173, 213, 0.4);
+    filter: blur(153px);
+}
+
+@media (max-width: 768px) {
+    .branding {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .branding-text {
+        align-items: center;
+    }
+
+    .branding img:first-child {
+        order: 2;
+    }
+
+    .arrow {
+        rotate: 90deg;
+    }
+
+    .ellipse-2 {
+        width: 260px;
+        height: 449px;
+        left: calc(50% - 449px/2 + 181.5px);
+        top: 1800px;
+    }
+}

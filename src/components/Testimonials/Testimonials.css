@@ -1,0 +1,77 @@
+#testimonials {
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+
+    color: #272D38;
+    margin-bottom: 38px;
+}
+
+#testimonials .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    justify-content: center;
+    background: #F6F6F6;
+    border-radius: 20px;
+    align-items: center;
+    padding: 30px;
+}
+
+.card img {
+    width: 129px;
+}
+
+.card h1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 153% */
+    text-transform: capitalize;
+    color: #272D38;
+}
+
+.card .comment {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130%;
+    /* or 18px */
+    text-align: center;
+    text-transform: capitalize;
+    color: #272D38;
+}
+
+@media (max-width: 800px) {
+    #testimonials {
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    #testimonials .container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    * {
+        align-items: center;
+    }
+
+}
