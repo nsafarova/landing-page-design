@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing-page-design/static/css/main.4a7cc75b.css",
+    "main.css": "/landing-page-design/static/css/main.44941211.css",
     "main.js": "/landing-page-design/static/js/main.df23177c.js",
     "static/media/business-people-discussing-business-idea.png": "/landing-page-design/static/media/business-people-discussing-business-idea.b6380fa36601cc276266.png",
     "static/media/designer-team-working-on-creative-design.png": "/landing-page-design/static/media/designer-team-working-on-creative-design.7fdc18d3d5cc45705cbc.png",
@@ -10,11 +10,11 @@
     "static/media/avatar-2.png": "/landing-page-design/static/media/avatar-2.af1e8209aeb85c0dcaaa.png",
     "static/media/avatar-1.png": "/landing-page-design/static/media/avatar-1.c9ab73109e6d5ef6c2ae.png",
     "index.html": "/landing-page-design/index.html",
-    "main.4a7cc75b.css.map": "/landing-page-design/static/css/main.4a7cc75b.css.map",
+    "main.44941211.css.map": "/landing-page-design/static/css/main.44941211.css.map",
     "main.df23177c.js.map": "/landing-page-design/static/js/main.df23177c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a7cc75b.css",
+    "static/css/main.44941211.css",
     "static/js/main.df23177c.js"
   ]
 }
