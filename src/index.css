@@ -5,12 +5,12 @@
 }
 
 html {
+  padding:0; margin:0;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
 body {
-  margin: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
 

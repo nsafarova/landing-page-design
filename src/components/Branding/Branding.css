@@ -17,8 +17,6 @@
     width: 400px;
 }
 
-
-
 .branding-text p {
     font-weight: 400;
     font-size: 16px;
@@ -51,7 +49,9 @@
     }
 
     .branding-text {
+        width: 350px;
         align-items: center;
+        text-align: center;
     }
 
     .branding img:first-child {
@@ -63,7 +63,7 @@
     }
 
     .ellipse-2 {
-        width: 260px;
+        width: 250px;
         height: 449px;
         left: calc(50% - 449px/2 + 181.5px);
         top: 1800px;
