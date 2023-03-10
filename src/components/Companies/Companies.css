@@ -46,4 +46,16 @@
     }
 
 
+    @media (max-width: 500px) {
+        .company-container {
+            width: 90%;
+            gap: 18px;
+        }
+
+        .company-container img {
+            height: 22px;
+            width: auto;
+        }
+
+    }
 }

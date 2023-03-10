@@ -49,3 +49,10 @@
         margin-bottom: 25px;
     }
 }
+
+@media (max-width: 500px) {
+    .contact-container {
+        width: 340px;
+        height: 340px;
+    }
+}

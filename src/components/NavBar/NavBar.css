@@ -75,7 +75,7 @@ nav {
     .menu-icon {
         display: block;
         cursor: pointer;
-        margin-right: 20px;
+        
     }
 
     .nav-list {
@@ -90,7 +90,7 @@ nav {
     }
 
     .nav-list.active {
-        width: 270px;
+        width: 260px;
     }
 
     .nav-list ul {
@@ -99,7 +99,7 @@ nav {
     }
 
     .nav-list ul li {
-        margin-right: unset;
+        
         margin-top: 33px;
     }
 }
